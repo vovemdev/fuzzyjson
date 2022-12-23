@@ -1,0 +1,41 @@
+{
+  "name": "fuzzyjson",
+  "version": "1.0.0",
+  "description": "fuzzyjson - flatten/unflatten json data",
+  "main": "index.js",
+  "type": "commonjs",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovem/fuzzyjson.git"
+  },
+  "files": [
+    "/dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "rollup index.js -c -o index.js -f iife",
+    "js": "rollup --config",
+    "build": "rm -rf dist && rollup --config"
+  },
+  "keywords": [
+    "object",
+    "json",
+    "flatten",
+    "unflatten",
+    "split",
+    "nested"
+  ],
+  "author": "VovemDev",
+  "contributors": [
+    "Owamamwen Ogunniyi <owamamwen@outlook.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vovem/fuzzyjson/issues"
+  },
+  "homepage": "https://github.com/vovem/fuzzyjson#readme"
+}
