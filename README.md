@@ -11,34 +11,51 @@ fuzzyJson Objects extension to convert a nested data layer object into a new obj
 ## flatten
 
 ```
+
 const jsonKey = require('fuzzyjson');
 
 const json = jsonKey.flatten(
-   {
+
+{
+
       json: {
+
          flatten: {
+
              deep: 100
+
       } },
+
       recursive: {
+
          level: {
+
             nested: true
+
        } }
+
     }
+
 )
+
 console.log(json);
 
 ```
 ## unflatten
 
 ```
+
 const jsonKey = require('fuzzyjson');
 
 const json = jsonKey.unflatten(
-   {
-   'json.flatten.deep': 100,
-   'recursive.level.nested': true
-   }
-)
+
+{
+
+'json.flatten.deep': 100,
+
+'recursive.level.nested': true
+
+} )
 
 console.log(json);
-```
+
