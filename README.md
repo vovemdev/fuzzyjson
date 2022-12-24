@@ -8,7 +8,6 @@ fuzzyJson Objects extension to convert a nested data layer object into a new obj
 
 ```
 ## flatten
-
 ```
 const jsonKey = require('fuzzyjson');
 
@@ -35,7 +34,6 @@ console.log(json);
 
 ```
 ## unflatten
-
 ```
 
 const jsonKey = require('fuzzyjson');
@@ -60,5 +58,4 @@ npm i fuzzyjson
 
 ```
 https://www.npmjs.com/package/fuzzyjson
-
 ```
