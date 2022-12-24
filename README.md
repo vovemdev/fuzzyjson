@@ -6,12 +6,6 @@ fuzzyJson - flatten or unflatten json data. Need of flattening JSON:- There are 
 
 fuzzyJson Objects extension to convert a nested data layer object into a new object with only one layer of key/value pairs.
 
-## install the npm
-
-```
-npm i fuzzyjson
-```
-
 ```
 ## flatten
 
@@ -55,6 +49,12 @@ const json = jsonKey.unflatten( {
 } )
 
 console.log(json);
+
+## install the npm
+
+```
+npm i fuzzyjson
+```
 
 ## NPM Package
 
